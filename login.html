@@ -1,0 +1,102 @@
+<html>
+<head>
+<style> 
+#info {
+    border-radius: 25px;
+    border: 2px solid #4c81bf;
+    padding: 20px; 
+    width: 500px;
+    height: 425px;   
+}
+#navbar
+{
+width: 100%
+}
+
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4c81bf;
+}
+
+li {
+    float: left;
+    
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: darkblue;
+}
+
+
+.active {
+    background-color: #4c81bf;
+	}
+	#button1{
+          background-color:white;
+          color: navy;
+          margin: 8px 0;
+          padding: 14px 10px;
+          cursor: pointer;
+          width: 60%;
+	      border-radius:25px;
+	      border:none;
+		  box-shadow: 5px 5px 2.5px #888888;
+}
+  input 
+					{
+					
+                    padding: 12px 35px;
+                    margin: 8px 0; 
+                    border-radius:15px;					
+                    							
+                    }
+			
+  
+</style>
+</head>
+<body>
+<div id="navbar">
+<ul>
+  <li><a class="active" href="#">Virtual Godown</a></li>
+  <li style="float:right"><a href="#">Contact</a></li>
+  <li style="float:right"><a href="#">About</a></li>
+  <li style="float:right"><a href="#">Home</a></li>
+</ul>
+</div>
+<center>
+<fieldset id="info">
+      <legend><font face="Helvetica" color="#4c81bf" size="5px"><b><img src="vir.png">Virtual Godown</b></font></legend>
+	
+<form>	 
+        <table>
+	
+              <tr><th><label><h3><b>EMAIL</b></h3></label></th>
+              <th> <input type="text" placeholder="Enter your Email ID" name="rollno" required></th></tr><br>
+              <tr><th><label><h3><b>PASSWORD</b></h3></label></th>
+              <th><input type="password" placeholder="Enter your Password" name="pass" required></th></tr><br>
+              <tr><th colspan="2">  
+			     <center>
+                              <button id="button1" type="submit" name="submit"><b>Login</b></button>
+							<button id="button1" name="reset" ><a href="password.html"><b>Forget Password</b> </a></button> 
+	              </center>
+				</th>
+			  </tr>				
+          </table> 
+            	</form>	
+
+</fieldset>
+</center>
+</body>
+</html>
